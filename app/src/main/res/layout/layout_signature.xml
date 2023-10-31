@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Save"
+            android:textSize="16sp"
+            android:background="@drawable/border_alert"
+            android:textColor="#008577" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:textSize="16sp"
+            android:padding="20dp"
+            android:background="@drawable/border_alert"
+            android:textColor="#008577" />
+    </LinearLayout>
+
+    <com.example.realtimerecording.ui.custom.Paint_View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/paint"
+        android:background="@color/white" />
+
+</LinearLayout>

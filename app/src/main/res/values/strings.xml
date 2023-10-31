@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Real Time Recording</string>
+    <string name="grant">Grant</string>
+    <string name="cancel">Cancel</string>
+    <string name="ask_camera_permission">This app needs to access your Camera to Capture Images. \nDo you want to grant this permission ?</string>
+    <string name="camera_access_error">Couldn\'t Initialize the Camera! Allow Access to the Camera and Try Again</string>
+    <string name="waiting_for_camera_access">Waiting For Camera Access</string>
+    <string name="gps_disabled">GPS is not enabled. Do you want to go to settings menu to enable it?</string>
+    <string name="go_settings">Go to Settings</string>
+    <string name="ask_location_permission">This app needs the Location permission to get your current Location and to Connect with your Bluetooth Device! \nDo you want to enable it</string>
+</resources>

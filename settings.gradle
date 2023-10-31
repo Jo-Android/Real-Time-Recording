@@ -1,0 +1,2 @@
+rootProject.name = "Real Time Recording"
+include ':app'
