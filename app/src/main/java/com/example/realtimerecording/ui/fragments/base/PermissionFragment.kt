@@ -55,8 +55,6 @@ abstract class PermissionFragment<B : ViewBinding>(
                 }
             }
         )
-        lifecycle.addObserver(cameraPermission)
-        lifecycle.addObserver(locationPermission)
     }
 
     override fun onCreateView(
@@ -100,15 +98,6 @@ abstract class PermissionFragment<B : ViewBinding>(
         requestCameraPermissions()
     }
 
-    override fun onResume() {
-        super.onResume()
-        /*requireActivity().onBackPressedDispatcher.addCallback(object : OnBackPressedCallback(true) {
-            override fun handleOnBackPressed() {
-                onBackPressed()
-            }
-        })*/
-    }
-
     override fun onStop() {
         super.onStop()
         cameraPermission.destroy()
@@ -135,6 +124,4 @@ abstract class PermissionFragment<B : ViewBinding>(
             onError
         )
     }
-
-//    abstract fun onBackPressed()
 }

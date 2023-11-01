@@ -80,13 +80,6 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
     implementation "androidx.concurrent:concurrent-futures-ktx:1.1.0"
 
-    //Room
-    implementation "androidx.room:room-runtime:$room_version"
-    kapt "androidx.room:room-compiler:$room_version"
-    // optional - Kotlin Extensions and Coroutines support for Room
-    implementation "androidx.room:room-ktx:$room_version"
-    implementation "androidx.room:room-paging:$room_version"
-    implementation "androidx.paging:paging-runtime:3.1.1"
 
     // Camera
     implementation "androidx.camera:camera-core:${camerax_version}"
